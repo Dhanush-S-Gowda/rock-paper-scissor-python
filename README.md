@@ -16,7 +16,7 @@ This repository contains a simple Rock, Paper, Scissors game created using Pytho
 - Classic game interaction.
 - Randomized computer moves.
 - ASCII art visuals.
-- User scores are counted
+- Additionally, a simple scoring system has been implemented where user scores and computer scores are counted throughout the game. At the end of the game, the winner is declared based on the accumulated scores.
 
 ## Requirements
 
