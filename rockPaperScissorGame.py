@@ -45,8 +45,11 @@ while True:
         print(rock)
     elif user_choice == 'P':
         print(paper)
-    else:
+    elif user_choice == 'S':
         print(scissors)
+    else:
+        print("-------->    Wrong input     <---------\n")
+        continue
     random_choice = random.randint(1, 3)
     print("Computer choose\n")
     if random_choice == 1:
@@ -66,4 +69,4 @@ while True:
         score += 1
     else:
         print("Computer won!")
-    print(f"Your Score: {score}\n****************************************************************")
+    print(f"Your Score: {score}\n****************************************************************\n")
